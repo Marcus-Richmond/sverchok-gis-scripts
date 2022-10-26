@@ -20,7 +20,10 @@ While doing this, I ran into a few issues. Here are brief descriptions of these 
 - "Install Microsoft Visual Studio C++" If you get an error like this, see this thread: https://stackoverflow.com/questions/48541801/microsoft-visual-c-14-0-is-required-get-it-with-microsoft-visual-c-build-t, and start with the steps described in the top answer.
 - Cannot install fiona. Fiona is another library that will be installed with geopandas, but I ran into the same issue described here: https://stackoverflow.com/questions/50876702/cant-install-fiona-on-windows. Luckily, following the steps in the top answer solved it for me, which was installing fiona directly with the wheel file found here: https://www.lfd.uci.edu/~gohlke/pythonlibs/#fiona
   - I had to do the same steps for the GDAL library, the wheel files can be found on the same site: https://www.lfd.uci.edu/~gohlke/pythonlibs/#gdal
-- blender can't find 3rd party modules fix: https://stackoverflow.com/questions/11161901/how-to-install-python-modules-in-blender
+- blender can't find 3rd party modules fix: 
+  - https://stackoverflow.com/questions/11161901/how-to-install-python-modules-in-blender
+  - https://blender.stackexchange.com/questions/5287/using-3rd-party-python-modules
+    - specifically this answer: https://blender.stackexchange.com/a/238995/69291
 
 ### other
 
